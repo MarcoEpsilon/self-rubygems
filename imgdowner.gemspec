@@ -9,15 +9,15 @@ Gem::Specification.new do |spec|
   spec.email         = ["rgbmarco@gmail.com"]
 
   spec.summary       = %q{download image form network}
-  spec.description   = %q{self customize, download image from netword}
-  spec.homepage      = "https://github.com/MarcoEpsilon/self-rubygems/tree/imgdowner/imgdowner"
+  spec.description   = %q{self customize, download image from network}
+  spec.homepage      = "https://github.com/MarcoEpsilon/self-rubygems/tree/imgdowner"
   spec.license       = "MIT"
 
   #spec.metadata["allowed_push_host"] = "'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/MarcoEpsilon/self-rubygems/tree/imgdowner/imgdowner"
-  spec.metadata["changelog_uri"] = "https://github.com/MarcoEpsilon/self-rubygems/tree/imgdowner/imgdowner"
+  spec.metadata["source_code_uri"] = "https://github.com/MarcoEpsilon/self-rubygems/tree/imgdowner"
+  spec.metadata["changelog_uri"] = "https://github.com/MarcoEpsilon/self-rubygems/tree/imgdowner"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
