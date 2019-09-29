@@ -1,8 +1,6 @@
 # Imgdowner
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/imgdowner`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This is a wrap interface for download image file from network
 
 ## Installation
 
@@ -22,7 +20,22 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'imgdowner'
+
+class Use
+    include Imgdowner
+    def initialize()
+    end
+    def todo()
+        src = 'https://w.wallhaven.cc/full/r2/wallhaven-r2qqlj.jpg'
+        self.download(src)
+    end
+end
+
+use = Use.new
+use.todo
+```
 
 ## Development
 
